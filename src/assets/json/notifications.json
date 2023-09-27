@@ -1,0 +1,77 @@
+[
+    {
+        "id": 0,
+        "from": 4,
+        "info": {
+            "type": "react",
+            "target": "post",
+            "targetId": 0
+        },
+        "date": "",
+        "seen": false
+    }, 
+    {
+        "id": 1,
+        "from": 0,
+        "info": {
+            "type": "follow"
+        },
+        "date": "",
+        "seen": false
+    },
+    {
+        "id": 2,
+        "from": 2,
+        "info": {
+            "type": "group",
+            "group": "Chess Club",
+            "action": "join"
+        },
+        "date": "",
+        "seen": false
+    },
+    {
+        "id": 3,
+        "from": 6,
+        "info": {
+            "type": "message",
+            "category": "direct",
+            "body": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
+        },
+        "date": "",
+        "seen": true
+    },
+    {
+        "id": 4,
+        "from": 3,
+        "info": {
+            "type": "comment",
+            "target": "picture",
+            "targetId": 0
+        },
+        "date": "",
+        "seen": true
+    },
+    {
+        "id": 5,
+        "from": 5,
+        "info": {
+            "type": "react",
+            "target": "post",
+            "targetId": 1
+        },
+        "date": "",
+        "seen": true
+    },
+    {
+        "id": 6,
+        "from": 1,
+        "info": {
+            "type": "group",
+            "group": "Chess Club",
+            "action": "leave"
+        },
+        "date": "",
+        "seen": true
+    }
+]

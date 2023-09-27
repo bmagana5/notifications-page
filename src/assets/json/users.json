@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "name": "Angela Gray",
+        "picUrl": "avatar-angela-gray.webp"
+    },
+    {
+        "id": 1,
+        "name": "Anna Kim",
+        "picUrl": "avatar-anna-kim.webp"
+    },
+    {
+        "id": 2,
+        "name": "Jacob Thompson",
+        "picUrl": "avatar-jacob-thompson.webp"
+    },
+    {
+        "id": 3,
+        "name": "Kimberly Smith",
+        "picUrl": "avatar-kimberly-smith.webp"
+    },
+    {
+        "id": 4,
+        "name": "Mark Webber",
+        "picUrl": "avatar-mark-webber.webp"
+    },
+    {
+        "id": 5,
+        "name": "Nathan Peterson",
+        "picUrl": "avatar-nathan-peterson.webp"
+    },
+    {
+        "id": 6,
+        "name": "Rizky Hasanuddin",
+        "picUrl": "avatar-rizky-hasanuddin.webp"
+    }
+]
