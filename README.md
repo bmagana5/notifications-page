@@ -14,11 +14,10 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+This is my attempt at the Notifications Page Challenge. This web app takes user, picture, and post information to generate a column with notification entries each with specific content based on the type of action the user took.
 
 ### The challenge
 
@@ -31,83 +30,39 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Mobile Version](./screenshot-mobile.png)
+![Desktop Version](./screenshot-desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages Link](https://bmagana5.github.io/notifications-page)
 
 ## My process
+
+I started out by creating the HTML layout with all of the necessary buttons, text, etc. Then, based on the provided information in the design images, I created several suitable JSON files pertaining to user, notification, post, and picture data. Since I plan on hosting this web app through Github Pages, I decided to host these JSON files locally through the public directory of the web app instead of using a database like MySQL or MongoDB, so the approach I took to import the JSON data is far different than with using the JavaScript fetch API or the JS library Axios. With JS, I implemented formatting the appropriate data and then with React, I embedded the data where appropriate. Once I was done getting all of the logical programming aspects of the app, I began styling with CSS and Sass with a mobile-first approach. I styled everything to work with devices with a viewport width of at least 480px first, and then for tablets and desktops.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+I was familiar with making GET, POST, PUT, and DELETE requests to a server's resource, but I wasn't sure on how to retrieve images and JSON files locally. I did a bit of digging online and eventually found that one can access the local public root directory with: 
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+process.env.PUBLIC_URL
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Everything fell into place once I discovered this.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Gerard's Solution on this Stackoverflow Post](https://stackoverflow.com/questions/47196800/reactjs-and-images-in-public-folder/#answer-54844591) - This was what I needed to access the /public directory in my project and access any images I needed.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Brian Magana
+- Frontend Mentor - [@bmagana5](https://www.frontendmentor.io/profile/bmagana5)

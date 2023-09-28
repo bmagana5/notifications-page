@@ -7,7 +7,7 @@
             "target": "post",
             "targetId": 0
         },
-        "date": "",
+        "date": "Wed Sep 27 2023 11:53:00 GMT-0700 (Pacific Daylight Time)",
         "seen": false
     }, 
     {
@@ -16,7 +16,7 @@
         "info": {
             "type": "follow"
         },
-        "date": "",
+        "date": "Wed Sep 27 2023 11:49:00 GMT-0700 (Pacific Daylight Time)",
         "seen": false
     },
     {
@@ -27,7 +27,7 @@
             "group": "Chess Club",
             "action": "join"
         },
-        "date": "",
+        "date": "Wed Sep 26 2023 11:54:48 GMT-0700 (Pacific Daylight Time)",
         "seen": false
     },
     {
@@ -38,7 +38,7 @@
             "category": "direct",
             "body": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
         },
-        "date": "",
+        "date": "Wed Sep 22 2023 11:54:48 GMT-0700 (Pacific Daylight Time)",
         "seen": true
     },
     {
@@ -49,7 +49,7 @@
             "target": "picture",
             "targetId": 0
         },
-        "date": "",
+        "date": "Wed Sep 19 2023 11:54:48 GMT-0700 (Pacific Daylight Time)",
         "seen": true
     },
     {
@@ -60,7 +60,7 @@
             "target": "post",
             "targetId": 1
         },
-        "date": "",
+        "date": "Wed Sep 15 2023 11:54:48 GMT-0700 (Pacific Daylight Time)",
         "seen": true
     },
     {
@@ -71,7 +71,7 @@
             "group": "Chess Club",
             "action": "leave"
         },
-        "date": "",
+        "date": "Wed Sep 13 2023 11:54:48 GMT-0700 (Pacific Daylight Time)",
         "seen": true
     }
 ]

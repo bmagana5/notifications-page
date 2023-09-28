@@ -2,6 +2,7 @@
   /* Primary */
   --red: hsl(1, 90%, 64%);
   --blue: hsl(219, 85%, 26%);
+  --blue-hover : hsl(219, 85%, 45%);
 
   /* Neutral */
   --white: hsl(0, 0%, 100%);
@@ -32,12 +33,18 @@ body, html {
   height: 100%;
 }
 
+html::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Plus Jakarta Sans';
+  font-size: 16px;
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

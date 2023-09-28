@@ -1,0 +1,54 @@
+.notification-menu-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem;
+    background-color: var(--white);
+
+    @media only screen and (min-width: 481px) {
+        width: 75%;
+        max-width: 768px;
+        height: 90%;
+        border-radius: 1rem;
+        box-shadow: 0 .5rem 1rem var(--light-grayish-blue-2);
+    }
+
+    .notification-menu-header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: .5rem 0;
+
+        .notification-menu-title {
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+            font-weight: 800;
+
+            .notification-unread-badge {
+                text-align: center;
+                padding: .2rem .7rem .25rem .7rem;
+                margin-left: .5rem;
+                border-radius: .5rem;
+                color: var(--white);
+                font-weight: 500;
+                font-size: 1rem;
+                background-color: var(--blue);
+            }
+        }
+
+        .mark-all-read-link {
+            background-color: transparent;
+            border: transparent;
+            outline: transparent;
+            color: var(--dark-grayish-blue);
+            font-size: 1rem;
+            cursor: pointer;
+
+            &:hover {
+                color: var(--blue-hover);   
+            }
+        }
+    }
+}

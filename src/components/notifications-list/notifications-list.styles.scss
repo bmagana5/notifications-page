@@ -1,0 +1,13 @@
+.notifications-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    padding-top: .75rem;
+    @media only screen and (min-width: 481px) {
+        overflow-y: auto;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}

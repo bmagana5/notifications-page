@@ -1,0 +1,94 @@
+.notification-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: .75rem;
+    margin-bottom: .75rem;
+    border-radius: .75rem;
+
+    &.unread {
+        background-color: var(--very-light-grayish-blue);
+    }
+
+    .profile-pic-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: auto;
+        padding-right: 1rem;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .notification-content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        &.column-direction {
+            flex-direction: column;
+        }
+
+        .main-text {
+            .text-container {
+                padding-bottom: .25rem;
+                color: var(--dark-grayish-blue);
+
+                & > *:not(.seen-indicator) {
+                    cursor: pointer;
+                    &:hover {
+                        color: var(--blue-hover);
+                    }
+                }
+
+                .user-name {
+                    font-weight: 800;
+                    color: var(--very-dark-blue);
+                }
+
+                .group-name {
+                    font-weight: 800;
+                    color: var(--blue);
+                }
+
+                .post-title {
+                    font-weight: 800;
+                }
+
+                .seen-indicator {
+                    text-align: center;
+                    padding-left: .25rem;
+                    font-size: .75rem;
+                    color: var(--red);
+                }
+            }
+
+            .time-passed-container {
+                color: var(--grayish-blue);
+            }
+        }
+
+        .picture-target {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+
+
+        .message-body-container {
+            padding: 1rem;
+            margin-top: .75rem;
+            color: var(--dark-grayish-blue);
+            border: 1px solid var(--grayish-blue);
+            cursor: pointer;
+
+            &:hover{
+                background-color: var(--light-grayish-blue-1);
+            }
+        }
+    }
+}
